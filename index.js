@@ -35,7 +35,7 @@
         this.distanceMeter = null;
         this.distanceRan = 0;
 
-        this.highestScore = 0;
+        this.highestScore = 2000;
 
         this.time = 0;
         this.runningTime = 0;
@@ -122,7 +122,7 @@
         MIN_JUMP_HEIGHT: 35,
         MOBILE_SPEED_COEFFICIENT: 1.2,
         RESOURCE_TEMPLATE_ID: 'audio-resources',
-        SPEED: 6,
+        SPEED: 8,
         SPEED_DROP_COEFFICIENT: 3
     };
 
@@ -1532,7 +1532,7 @@
         MAX_JUMP_HEIGHT: 30,
         MIN_JUMP_HEIGHT: 30,
         SPEED_DROP_COEFFICIENT: 3,
-        SPRITE_WIDTH: 262,
+        SPRITE_WIDTH: 292,
         START_X_POS: 50,
         WIDTH: 44,
         WIDTH_DUCK: 59
